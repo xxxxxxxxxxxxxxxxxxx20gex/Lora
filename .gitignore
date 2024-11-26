@@ -6,3 +6,6 @@ venv
 build
 .vscode
 wandb
+finetune/SmilingWolfwd-swinv2-tagger-v3/model.msgpack
+finetune/SmilingWolfwd-swinv2-tagger-v3/model.onnx
+finetune/SmilingWolfwd-swinv2-tagger-v3/model.safetensors
