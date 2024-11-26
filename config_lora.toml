@@ -1,0 +1,26 @@
+#[general]
+#shuffle_caption = true
+#caption_extension = '.json'
+#keep_tokens = 1
+#
+#[[datasets]]
+#resolution = [512, 512]
+#batch_size = 2
+#
+#  [[datasets.subsets]]
+#  image_dir = '/home/user/lyq/sd-scripts-main/ldh'
+
+# 11.17 lora finetune
+[general]
+shuffle_caption = true
+keep_tokens = 2
+
+[[datasets]]
+resolution = 512                                    # 图像分辨率
+batch_size = 8                                      # 批次大小
+enable_bucket = true
+num_repeats = 2
+
+  [[datasets.subsets]]
+  image_dir = '/home/user/lyq/sd-scripts-main/lyq_dataset/lyq_mask'         # 指定包含训练图像的文件夹
+  metadata_file = '/home/user/lyq/sd-scripts-main/finetune/lyq_finetune/meta_cap_dd_dataset3.json'     # 元数据文件名
