@@ -1,7 +1,7 @@
 ## リポジトリについて
 Stable Diffusionの学習、画像生成、その他のスクリプトを入れたリポジトリです。
 
-[README in English](./README.md) ←更新情報はこちらにあります
+[README in English](./README_origin) ←更新情報はこちらにあります
 
 GUIやPowerShellスクリプトなど、より使いやすくする機能が[bmaltais氏のリポジトリ](https://github.com/bmaltais/kohya_ss)で提供されています（英語です）のであわせてご覧ください。bmaltais氏に感謝します。
 

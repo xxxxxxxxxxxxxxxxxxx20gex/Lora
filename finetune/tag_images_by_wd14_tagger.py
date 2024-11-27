@@ -83,7 +83,8 @@ def collate_fn_remove_corrupted(batch):
 def main(args):
     # model location is model_dir + repo_id
     # repo id may be like "user/repo" or "user/repo/branch", so we need to remove slash
-    model_location = os.path.join(args.model_dir, args.repo_id.replace("/", "_"))
+    # model_location = os.path.join(args.model_dir, args.repo_id.replace("/", "_"))
+    model_location = os.path.join(args.model_dir) # lyq
 
     # hf_hub_downloadをそのまま使うとsymlink関係で問題があるらしいので、キャッシュディレクトリとforce_filenameを指定してなんとかする
     # depreacatedの警告が出るけどなくなったらその時

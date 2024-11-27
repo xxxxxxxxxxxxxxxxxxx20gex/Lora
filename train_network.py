@@ -1101,6 +1101,15 @@ def setup_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="do not use fp16/bf16 VAE in mixed precision (use float VAE) / mixed precisionでも fp16/bf16 VAEを使わずfloat VAEを使う",
     )
+
+    # parser.add_argument('--gpu_ids', type=str,
+    #                     default='0,1',
+    #                     help="Comma separated list of GPU ids to use.")
+    # args = parser.parse_args()
+    #
+    # # 设置 CUDA_VISIBLE_DEVICES
+    # gpu_ids = args.gpu_ids.split(',')
+    # os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(gpu_ids)
     return parser
 
 
