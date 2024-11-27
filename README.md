@@ -40,7 +40,7 @@ accelerate config
 ## 步骤一：数据集准备
 因为要训人脸lora，所以用手机拍摄的一些人脸照片，尺寸为3000*4000，尺寸大能涵盖更多特征细节。
 ![数据集收集](./ldh/img_1.png)
-主要采集了人脸图片（数据集1）（主要调整角度为正、侧、上下摆头，其他元素未变）。
+<br>主要采集了人脸图片（数据集1）（主要调整角度为正、侧、上下摆头，其他元素未变）。
 ```angular2html
 #数据集保存路径
 sd-scripts-main/lyqface_r
@@ -57,14 +57,13 @@ python finetune/make_captions.py --batch_size 8 ./lyq_dataset/lyq_mask
 ```
 caption文件创建在人脸数据集合相同的目录中，具有相同的文件名和扩展名.caption。如下图展示：
 ![captions](./ldh/img2.png)
+
 captions标题如下：
+
 ![img3.png](./ldh/img3.png)
 ### 2. 标签生成
 此过程使用 WD14Tagger 进行标签的生成。可在`tag-wd14.sh`内部进行数据集位置的修改与参数的修改后运行。
 <br>具体用法可参照[wd14_tagger](./docs/wd14_tagger_README-en.md) 。
-<br>第一次国内运行需要下载模型，这里建议直接离线下载模型网上搜索SmilingWolfwd-swinv2-tagger-v
-<br>文件结构如下:<br>
-![img4.png](./ldh/img4.png),
 ```
 sh tag-wd14.sh
 ```
@@ -74,6 +73,11 @@ sh tag-wd14.sh
 - `--remove_underscore` : 去除掉生成标签中的下划线。
 - `--model_dir`  下载的生成模型保存路径。
 - `最后一行是数据集路径` 生成的标签也将在此出现。
+<br>第一次国内运行需要下载模型，这里建议直接离线下载模型网上搜索SmilingWolfwd-swinv2-tagger-v
+<br>文件结构如下:<br>
+![img4.png](./ldh/img4.png)
+
+
 
 <br>案例展示：<br>
 ![img5.png](./ldh/img5.png)
@@ -122,6 +126,7 @@ python merge_dd_tags_to_metadata.py --full_path --in_json meta_cap_dd1.json
 ```
 
 元数据结构示例展示：
+
 ![img.png](./ldh/img.png)
 #### 3.3 标签清洗
 查看 meta_cap_dd.json 元数据文件，我进行手动清理，将标签添加了第一个字符‘lyq’用于lora训练的第一个提示词，提示词的顺序也决定了权重的大小。
