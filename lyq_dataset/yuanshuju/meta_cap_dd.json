@@ -1,0 +1,58 @@
+{
+  "lyq_dataset/lyq_mask/lyq(1)_1_output.png": {
+    "caption": "a young man in glasses looking to the side",
+    "tags": "lyq,solo, looking at viewer, simple background, black hair, 1boy, male focus, glasses, black background, portrait, realistic, asian"
+  },
+  "lyq_dataset/lyq_mask/lyq(10)_2_output.png": {
+    "caption": "a young man with glasses staring at something with black background",
+    "tags": "lyq,solo, looking at viewer, black hair, 1boy, male focus, glasses, black background, portrait, realistic"
+  },
+  "lyq_dataset/lyq_mask/lyq(11)_2_output.png": {
+    "caption": "a young man wearing glasses and a hat looking sideways at the camera",
+    "tags": "lyq,solo, looking at viewer, 1boy, male focus, glasses, black background, portrait, realistic"
+  },
+  "lyq_dataset/lyq_mask/lyq(12)_2_output.png": {
+    "caption": "a young man is wearing glasses and looking at the camera",
+    "tags": "lyq,solo, looking at viewer, simple background, 1boy, male focus, glasses, black background, portrait, realistic"
+  },
+  "lyq_dataset/lyq_mask/lyq(13)_2_output.png": {
+    "caption": "a young man in glasses is standing next to a cell phone",
+    "tags": "lyq,solo, looking at viewer, black hair, 1boy, male focus, glasses, black background, portrait, realistic, asian"
+  },
+  "lyq_dataset/lyq_mask/lyq(14)_2_output.png": {
+    "caption": "a young man with glasses looks serious",
+    "tags": "lyq,solo, looking at viewer, black hair, 1boy, male focus, glasses, black background, portrait, realistic"
+  },
+  "lyq_dataset/lyq_mask/lyq(2)_1_output.png": {
+    "caption": "a young man in glasses staring off into the distance",
+    "tags": "lyq,solo, black hair, 1boy, male focus, glasses, black background, realistic, asian"
+  },
+  "lyq_dataset/lyq_mask/lyq(3)_1_output.png": {
+    "caption": "a man with glasses standing with another man sitting in the back",
+    "tags": "lyq, black hair, male focus, glasses, black background, realistic"
+  },
+  "lyq_dataset/lyq_mask/lyq(4)_1_output.png": {
+    "caption": "a man wearing glasses and making a silly face",
+    "tags": "lyq,solo, black hair, 1boy, male focus, glasses, black background, realistic, asian"
+  },
+  "lyq_dataset/lyq_mask/lyq(5)_2_output.png": {
+    "caption": "a closeup of a person with glasses on",
+    "tags": "lyq,solo, glasses, black background, realistic"
+  },
+  "lyq_dataset/lyq_mask/lyq(6)_2_output.png": {
+    "caption": "man with black glasses looking directly at the camera",
+    "tags": "lyq,solo, black hair, 1boy, male focus, glasses, black background, portrait, realistic, asian"
+  },
+  "lyq_dataset/lyq_mask/lyq(7)_1_output.png": {
+    "caption": "the man is wearing glasses and his hair tied up",
+    "tags": "lyq,solo, black hair, 1boy, male focus, glasses, black background, portrait, realistic"
+  },
+  "lyq_dataset/lyq_mask/lyq(8)_1_output.png": {
+    "caption": "a young man in glasses is holding a cell phone",
+    "tags": "lyq,solo, black hair, 1boy, male focus, glasses, black background, portrait, realistic"
+  },
+  "lyq_dataset/lyq_mask/lyq(9)_1_output.png": {
+    "caption": "a young man wearing glasses on the phone in front of other men",
+    "tags": "lyq,solo, looking at viewer, black hair, 1boy, male focus, glasses, black background, portrait, realistic"
+  }
+}

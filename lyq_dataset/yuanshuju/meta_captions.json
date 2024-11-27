@@ -1,0 +1,44 @@
+{
+  "lyq_dataset/lyq_mask/lyq(1)_1_output.png": {
+    "caption": "an asian male in glasses looking to the side"
+  },
+  "lyq_dataset/lyq_mask/lyq(10)_2_output.png": {
+    "caption": "a guy with glasses staring at something with black background"
+  },
+  "lyq_dataset/lyq_mask/lyq(11)_2_output.png": {
+    "caption": "a man wearing glasses and a hat looking sideways at the camera"
+  },
+  "lyq_dataset/lyq_mask/lyq(12)_2_output.png": {
+    "caption": "the man is wearing glasses and looking at the camera"
+  },
+  "lyq_dataset/lyq_mask/lyq(13)_2_output.png": {
+    "caption": "a person in glasses is standing next to a cell phone"
+  },
+  "lyq_dataset/lyq_mask/lyq(14)_2_output.png": {
+    "caption": "a young man with glasses looks serious"
+  },
+  "lyq_dataset/lyq_mask/lyq(2)_1_output.png": {
+    "caption": "a young man in glasses staring off into the distance"
+  },
+  "lyq_dataset/lyq_mask/lyq(3)_1_output.png": {
+    "caption": "a man with glasses standing with another man sitting in the back"
+  },
+  "lyq_dataset/lyq_mask/lyq(4)_1_output.png": {
+    "caption": "a man wearing glasses and making a silly face"
+  },
+  "lyq_dataset/lyq_mask/lyq(5)_2_output.png": {
+    "caption": "a closeup of a person with glasses on"
+  },
+  "lyq_dataset/lyq_mask/lyq(6)_2_output.png": {
+    "caption": "man with black glasses looking directly at the camera"
+  },
+  "lyq_dataset/lyq_mask/lyq(7)_1_output.png": {
+    "caption": "the man is wearing glasses and his hair tied up"
+  },
+  "lyq_dataset/lyq_mask/lyq(8)_1_output.png": {
+    "caption": "a man in glasses is holding a cell phone"
+  },
+  "lyq_dataset/lyq_mask/lyq(9)_1_output.png": {
+    "caption": "a man wearing glasses on the phone in front of other men"
+  }
+}
